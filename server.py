@@ -1,6 +1,6 @@
 import socket
 
-inf = ('host ip', 550)
+inf = ('localhost', 550)
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 

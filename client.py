@@ -1,7 +1,7 @@
 import socket
 
 
-c = ('host ip', 550)
+c = ('localhost', 550)
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
