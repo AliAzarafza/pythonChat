@@ -9,4 +9,6 @@ server.bind(inf)
 server.listen(20)
 con ,addr = server.accept()
 
-con.send("hello")
+while True:
+    sendData = raw_input(">> ")
+    con.send(sendData)
